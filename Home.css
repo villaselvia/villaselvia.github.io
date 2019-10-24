@@ -1,0 +1,230 @@
+body{
+	margin: 0;
+}
+.judul
+		{
+			font-family: Berlin sans fb;
+			font-size:  30px;
+			color: black;
+			line-height: 0px;
+			height: 15px;
+			width: 100%;
+			padding-left: 20px;
+		}
+.subjudul
+		{
+			font-size: 15px;
+			font-family: Arial;
+			width: 100%;
+			line-height: 0px;
+			display: inline-block;
+			padding-left: 20px;
+		}
+.profile
+		{
+			display: inline-block;
+			width: 80px;
+			height: 80px;
+		}
+.profil
+		{
+			display: flex;
+		}
+.gambarprofil
+		{
+			width: 40px;
+			height: 40px;
+			margin-top: 20px;
+			margin-left: 1070px;
+		}
+.profil .tulisan
+		{
+			font-size: 15px;
+			padding-left:1070px;
+			line-height: 0px;
+			border:none;
+		}
+.navbar
+		{
+			width: 100%;
+			
+		}
+.navbar .home 
+		{
+			padding-right: 50px;
+			margin: 0px;
+			float: right;
+			text-decoration: none;
+		}
+.navbar .to-dos 
+		{
+			padding-right: 50px;
+			margin: 0px;
+			float: right;
+			text-decoration: none;
+		}
+.navbar .courses 
+		{
+			padding-right: 50px;
+			margin: 0px;
+			float: right;
+			text-decoration: none;
+		}
+.navbar .messages 
+		{
+			padding-right: 50px;
+			margin: 0px;
+			float: right;
+			text-decoration: none;
+		}
+.navbar .home:hover
+		{
+			border-radius: 20px;
+			margin-right: 30px;
+			padding-left: 20px;
+			background-color: #C48CFA;
+			width: 30px;
+			height: 20px;
+			border:1px solid #C48CFA;
+			color: black;
+		}
+.navbar .to-dos:hover
+		{
+			border-radius: 20px;
+			padding-left: 20px;
+			margin-right: 30px;
+			background-color: #C48CFA;
+			width: 30px;
+			height: 20px;
+			border:1px solid #C48CFA;
+			color: black;
+		}
+.navbar .courses:hover
+		{
+			border-radius: 20px;
+			margin-right: 30px;
+			padding-left: 20px;
+			background-color: #C48CFA;
+			width: 50px;
+			height: 20px;
+			border:1px solid #C48CFA;
+			color: black;
+		}
+.navbar .messages:hover
+		{
+			border-radius: 20px;
+			padding-left: 20px;
+			margin-right: 30px;
+			background-color: #C48CFA;
+			width: 30px;
+			height: 20px;
+			border:1px solid #C48CFA;
+			color: black;
+		}
+.videolearning
+		{
+			font-family: rockwell;
+			font-size: 20px;
+			padding-left: 50px;
+			font-weight: normal;
+		}
+.video
+		{
+			width: 350px; 
+			height:180px;
+			margin-left: 40px;
+		}
+.video1
+		{
+			width: 350px; 
+			height:180px;
+			margin-left: 105px;
+		}
+.kotak
+		{
+			height: 300px;
+			padding: 30px 100px;
+			background-color: #470489;
+			margin-top: 50px;
+		}
+.kotak a 
+		{
+			font-size: 20px;
+			font-family: rockwell;
+			color: white;
+			text-decoration: none;
+		}
+.kotak .box
+		{
+			background-color: white;
+			height: 250px;
+			width: 100%;
+			padding: 10px;
+		}
+.kotak .tugas
+		{
+			width: 500px;
+			height: 50px;
+			background-color: white;
+			margin-top: : 1000px;
+			border-color: #470489;
+			border-style: solid;
+			display: flex;
+			margin-bottom: 2px;
+		}
+.box .gambar2
+		{
+			padding-top: 3px;
+			width: 40px;
+			height: 40px;
+		}
+.footer
+		{
+			background-color: #470489;
+			height: 100px;
+		  	left: 0;
+		  	bottom: 0;
+		  	width: 100%;
+		  	color: white;
+		  	padding-left: 10px;
+		  	padding-bottom: 40px;
+		}
+.footer .judul
+		{
+			font-family: Berlin sans fb;
+			font-size:  30px;
+			padding-top: 30px;
+			margin-bottom: 0px;
+			color: white;
+			height: 15px;
+			width: 100%;
+		}
+.footer .subjudul
+		{
+			font-size: 15px;
+			font-family: Arial;
+			width: 80%;
+			color: white;
+			display: inline-block;
+		}
+.footer .isi
+		{
+			display: inline-block;
+			font-size: 20px;
+		}
+.footer .isi2
+		{
+			display: inline-block;
+			font-size: 20px;
+			padding-left: 50px;
+		}
+.footer .isilink
+		{
+			color: white;
+			text-decoration: none;
+		}
+.kotak .tulisan
+		{
+			font-size: 15px;
+			font-family: berlin sans fb;
+		}
