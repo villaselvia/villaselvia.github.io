@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+}
+.bg
+		{
+			background-color: #470489;
+		}
+.judul
+		{
+			margin-top: 85px;
+			line-height: 5px;
+			text-align: center;
+			font-family: berlin sans fb;
+			color: white;
+			font-size: 50px
+		}
+.subjudul
+		{
+			font-size:15px;
+			text-align: center;
+			font-family: sogoe ui;
+			color: white;
+			line-height: 0px
+		}
+.email2 
+		{
+			text-align: center;
+		}
+.email3 
+		{
+			text-align: center;
+			color: white;
+		}
+.email
+		{
+			border-radius: 5px;
+			width: 250px;
+			height: 25px;
+			text-align: left;
+		}
+.password
+		{
+			border-radius: 5px;
+			width: 250px;
+			height: 25px;
+		}
+.Remember
+		{
+			font-size: 15px; 
+			margin-top: 0px;
+			text-align: center; 
+			font-family: segoe ui; 
+			color: white;
+		}
+.Login
+		{
+			cursor: pointer; 
+			border:none; 
+			padding: 0px 20px 0px 20px; 
+			font-family: berliln sans fb; 
+			color: white; border-radius: 10px;
+			background-color:#F735DE;
+		}
+.Loginlink
+		{
+			color: white;
+			text-decoration: none;
+		}
+.account
+		{
+			font-size: 15px; 
+			text-align: center;
+			font-family: sogoe ui; 
+			color: white
+		}
+.footer
+		{
+			text-align: right;
+			font-family: sogoe ui;
+			color: white;
+			font-size: 18px;
+		}
+.linkfooter
+		{
+			color: white;
+			text-decoration: none;
+		}
+.linkfooter2
+		{
+			color: white;
+			text-decoration: none;
+		}
