@@ -137,6 +137,7 @@
 			font-family: berlin sans FB;
 			color: #470489;
 			padding-top: 30px;
+			padding-left: %;
 			padding-bottom: 30px;
 		}
 		.KetRegis
@@ -276,4 +277,30 @@
 		{
 			color: red;
 			text-decoration: none;
+		}
+		.flex
+		{
+			display: flex;
+		}
+		.gambarexit
+		{
+			width: 60px;
+			height: 60px;
+			padding-top: 70px;
+		}
+		.profillagi
+		{
+			width: 90%;
+		}
+		.exit
+		{
+			font-size: 40px;
+			color: red;
+			font-family: berlin sans fb;
+			line-height: 0px;
+		}
+		.exit a
+		{
+			text-decoration: none;
+			color: red;
 		}
