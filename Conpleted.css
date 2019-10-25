@@ -11,6 +11,16 @@ body{
 			width: 100%;
 			padding-left: 20px;
 		}
+.linkjudul
+		{
+			text-decoration: none;
+			color: black;
+		}
+.linkjudul2
+		{
+			text-decoration: none;
+			color: white;
+		}
 .subjudul
 		{
 			font-size: 15px;
