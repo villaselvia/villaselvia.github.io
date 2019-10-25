@@ -318,15 +318,3 @@ body {
 #slider {
   margin: 0 auto;
 }
-
-.slide:nth-child(1) {
-  background: #c69;
-}
-
-.slide:nth-child(2) {
-  background: wheat;
-}
-
-.slide:nth-child(3) {
-  background: #eee;
-}
