@@ -238,41 +238,43 @@ body{
 			color: white;
 		}
 .videolearning a
-{
-	text-decoration: none;
-	color: black;
-}
+		{
+			text-decoration: none;
+			color: black;
+		}
 .ukuran
-{
-	width: 90%;
-}
-
+		{
+			width: 90%;
+		}
 .video1_display1
-{
-	display: block;
-}
+		{
+			display: block;
+		}
 .video1_display2
-{
-	display: none;
-}
-#slider {
-  overflow: hidden;
-  border: 1px solid #c69;
-}
+		{
+			display: none;
+		}
+#slider
+		{
+		  overflow: hidden;
+		  border: 1px solid #c69;
+		}
 
-.slide {
-  float: left;
-  position: relative;
-  margin-right: 20px;
-}
+.slide
+		{
+		  float: left;
+		  position: relative;
+		  margin-right: 20px;
+		}
 
-#slide-holder {
-  width: 400%;
-  position: relative;
-  left: 0;
-  -webkit-animation: scroller 10s infinite;
-          animation: scroller 10s infinite;
-}
+#slide-holder
+		{
+		  width: 400%;
+		  position: relative;
+		  left: 0;
+		  -webkit-animation: scroller 10s infinite;
+		          animation: scroller 10s infinite;
+		}
 
 @-webkit-keyframes scroller {
   0% {
@@ -311,10 +313,12 @@ body{
             transform: translateX(0);
   }
 }
-body {
-  font-family: sans-serif;
-}
+body 
+	{
+	  font-family: sans-serif;
+	}
 
-#slider {
-  margin: 0 auto;
-}
+#slider 
+	{
+	  margin: 0 auto;
+	}
