@@ -168,7 +168,7 @@ body{
 			color: white;
 			text-decoration: none;
 		}
-.footer .isilink
+ .footer .isilink
 		{
 			color: white;
 			text-decoration: none;
@@ -257,4 +257,9 @@ li a.active
 		{
 			text-decoration: none;
 			color: black;
+		}
+.link-judul2
+		{
+			text-decoration: none;
+			color: white;
 		}
