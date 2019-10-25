@@ -54,6 +54,11 @@ body{
 			line-height: 0px;
 			border:none;
 		}
+.link-judul
+		{
+			text-decoration: none;
+			color: black;
+		}
 .navbar
 		{
 			width: 100%;
