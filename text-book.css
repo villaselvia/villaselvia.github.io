@@ -270,3 +270,8 @@ li a:hover:not(.active) {
 	padding-left: 20px;
 	padding-top: 4px;
 }
+.linkJudul
+		{
+			text-decoration: none;
+			color: black;
+		}
