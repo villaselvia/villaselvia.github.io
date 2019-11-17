@@ -19,7 +19,7 @@ body{
 		{
 			font-size:15px;
 			text-align: center;
-			font-family: sogoe ui;
+			font-family: Arial;
 			color: white;
 			line-height: 0px;
 			text-decoration: none;
@@ -32,6 +32,7 @@ body{
 		{
 			text-align: center;
 			color: white;
+			font-family: arial;
 		}
 .email
 		{
@@ -51,17 +52,17 @@ body{
 			font-size: 15px; 
 			margin-top: 0px;
 			text-align: center; 
-			font-family: segoe ui; 
 			color: white;
 		}
 .Login
 		{
 			cursor: pointer; 
 			border:none; 
-			padding: 0px 20px 0px 20px; 
-			font-family: berliln sans fb; 
+			padding: 5px 20px 5px 20px; 
+			font-family: Arial; 
+			font-size: 17px;
 			color: white; border-radius: 10px;
-			background-color:#F735DE;
+			background: linear-gradient(#AA5EDC,#840CC9); 
 		}
 .Loginlink
 		{
@@ -72,13 +73,13 @@ body{
 		{
 			font-size: 15px; 
 			text-align: center;
-			font-family: sogoe ui; 
+			font-family: arial; 
 			color: white
 		}
 .footer
 		{
 			text-align: right;
-			font-family: sogoe ui;
+			font-family: berlin sans fb;
 			color: white;
 			font-size: 18px;
 		}
