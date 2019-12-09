@@ -266,7 +266,7 @@
 		{
 			display: inline-block;
 			color: red;
-			padding-left: 100px;
+			padding-left: 70px;
 			font-size: 30px;
 		}
 		.tulisanprofil
@@ -276,6 +276,8 @@
 		.tombolcancel
 		{
 			color: red;
+			font-family: Arial;
+			font-weight: bold;
 			text-decoration: none;
 		}
 		.flex
