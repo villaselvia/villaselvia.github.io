@@ -61,7 +61,8 @@ body{
 			padding: 5px 20px 5px 20px; 
 			font-family: Arial; 
 			font-size: 17px;
-			color: white; border-radius: 10px;
+			color: white; 
+			border-radius: 10px;
 			background: linear-gradient(#AA5EDC,#840CC9); 
 		}
 .Loginlink
@@ -78,6 +79,7 @@ body{
 		}
 .footer
 		{
+			margin-top: 18%;
 			text-align: right;
 			font-family: berlin sans fb;
 			color: white;

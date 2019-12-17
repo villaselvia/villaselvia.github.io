@@ -275,6 +275,8 @@ li a:hover:not(.active) {
 	font-family: Rockwell;
 	padding-left: 20px;
 	padding-top: 4px;
+	text-decoration: none;
+	color: black;
 }.kotak3 .tulisan
 {
 	font-size: 20px;

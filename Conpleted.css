@@ -252,6 +252,7 @@ li a.active
 		{
 			font-family: segoe ui;
 			font-size: 25px;
+			text-decoration: none;
 			color: black;
 			line-height: 0px;
 			padding-top: 12px;

@@ -126,10 +126,7 @@
 			border-radius: 10px;
 			background : linear-gradient(#AA5EDC,#840CC9);
 		}
-		{
-			line-height: 0px;
-			padding-left: 5px;
-		}
+
 		.Regis
 		{
 			text-align: center;
@@ -137,7 +134,7 @@
 			font-family: berlin sans FB;
 			color: #470489;
 			padding-top: 30px;
-			padding-left: %;
+			padding-left: 4%;
 			padding-bottom: 30px;
 		}
 		.KetRegis
@@ -284,12 +281,6 @@
 		{
 			display: flex;
 		}
-		.gambarexit
-		{
-			width: 60px;
-			height: 60px;
-			padding-top: 70px;
-		}
 		.profillagi
 		{
 			width: 90%;
@@ -297,12 +288,85 @@
 		.exit
 		{
 			font-size: 40px;
-			color: red;
+			color: rgb(255, 255, 255);
 			font-family: berlin sans fb;
-			line-height: 0px;
+			padding: 0px 20px 0px 20px;
+			margin-top: 100%;
+			border-radius: 15px;
+			border-style: solid;
+			border-color: white;
+			background: black;
+			cursor: pointer;
 		}
-		.exit a
+		.exit:hover
 		{
-			text-decoration: none;
 			color: red;
+			border-style: solid;
+			border-color: red;
+			background: white;
+		}
+		
+		.modal {
+			display: none; 
+			position: fixed; 
+			z-index: 1; 
+			left: 0;
+			top: 0;
+			width: 100%; 
+			height: 100%;
+			overflow: auto; 
+			background-color: rgb(0,0,0); 
+			background-color: rgba(0,0,0,0.4); 
+		}
+		
+		
+		.modal-content {
+			background-color: #fefefe;
+			margin: 15% auto; 
+			padding: 20px;
+			border: 1px solid #888;
+			width: 80%; 
+		}
+		
+	
+		.close {
+			color: #aaa;
+			float: right;
+			font-size: 28px;
+			font-weight: bold;
+		}
+		
+		.close:hover,
+		.close:focus {
+			color: black;
+			text-decoration: none;
+			cursor: pointer;
+		}
+		.gakjadi
+		{
+			font-family: berlin sans fb;
+			color: white;
+			background-color: black;
+			border: none;
+			cursor: pointer;
+			padding: 15px 20px 15px 20px;
+			margin-left: 2%;
+			border-radius: 10px;
+		}
+		.keluar
+		{
+			font-family: berlin sans fb;
+			color: white;
+			background-color: black;
+			border: none;
+			cursor: pointer;
+			padding: 15px 20px 15px 20px;
+			margin-left: 43%;
+			border-radius: 10px;
+		}
+		.tulisankeluar
+		{
+			font-family: berlin sans fb;
+			font-size: 20px;
+			text-align: center;
 		}

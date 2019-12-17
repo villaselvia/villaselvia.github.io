@@ -21,8 +21,16 @@
 		<p class="Regis">Profile</p>
 	</div>
 	<div>
-		<a href="index.html"><img src="exit.png" class="gambarexit"></a>
-		<p class="exit"><a href="index.html">exit</a></p>
+		<button id="myBtn" class="exit">exit</button>
+			<div id="myModal" class="modal">
+
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<p class="tulisankeluar">Are you sure?</p>
+					<a href="index.html"><button class="keluar" type="button">Yes</button></a>
+					<a href="Profile.html"><button class="gakjadi" type="button">No</button></a>
+				</div>
+  			</div>
 	</div>
 </div>
 <div class="kotak">
@@ -64,7 +72,26 @@
   <p class="isi"><a href="Contact Us Login.html" class="isilink">Contact Us</a></p>
   <p class="isi2"><a href="About Us Login.html" class="isilink">About Us</a></p>
 </div>
-
 </div>
 </body>
+<script>
+
+	var modal = document.getElementById("myModal");
+
+	var btn = document.getElementById("myBtn");
+
+	var span = document.getElementsByClassName("close")[0];
+
+	btn.onclick = function() {
+	modal.style.display = "block";
+	}
+	span.onclick = function() {
+	modal.style.display = "none";
+	}
+	window.onclick = function(event) {
+	if (event.target == modal) {
+		modal.style.display = "none";
+	}
+	}
+</script>
 </html>

@@ -253,6 +253,7 @@ li a.active
 			color: black;
 			line-height: 0px;
 			padding-left: 25px;	
+			
 		}
 .flex .captiongambar2
 		{
@@ -262,6 +263,8 @@ li a.active
 			padding-top: 10px;
 			line-height: 0px;
 			padding-left: 20px;
+			text-decoration: none;
+			color: black;
 		}
 .link-judul
 		{

@@ -145,7 +145,7 @@ body{
 			background-color: #470489;
 			margin-top: 50px;
 		}
-.kotak a 
+.kotak .to-do 
 		{
 			font-size: 20px;
 			font-family: rockwell;
@@ -164,11 +164,19 @@ body{
 			width: 500px;
 			height: 50px;
 			background-color: white;
-			margin-top: : 1000px;
 			border-color: #470489;
 			border-style: solid;
 			display: flex;
 			margin-bottom: 2px;
+			text-decoration: none;
+		}
+.kotak .tulisan
+		{
+			font-size: 15px;
+			color: black;
+			font-family: berlin sans fb;
+			cursor: pointer;
+			
 		}
 .box .gambar2
 		{
@@ -221,12 +229,7 @@ body{
 			color: white;
 			text-decoration: none;
 		}
-.kotak .tulisan
-		{
-			font-size: 15px;
-			font-family: berlin sans fb;
-			cursor: pointer;
-		}
+
 .linkJudul
 		{
 			text-decoration: none;
