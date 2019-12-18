@@ -4,6 +4,7 @@
 	<title>Messages</title>
 </head>
 	<link rel="Stylesheet" type="text/css" href="Messages.css"/>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <body>
 <div class="profil">
 	<div>
@@ -12,7 +13,8 @@
 	</div>
 		<div>
 			<img src="Profil.jpeg" class="gambarprofil">
-			<p class="tulisan"  style="line-height: 0px;">Profile</p>
+			<p style="line-height: 0px;"><a href="Profile.html" class="tulisan">Profile</a></p>
+			
 		</div>
 </div>
 	<hr color="#470489" size="5px">
@@ -47,14 +49,24 @@
 				</div>	
 			</div>
 		<div class="messages-1">
+			<div>
+							<p class="pesan" id="a">assalamualaikum</p>
+							<p class="pesan" id="b">walaikumsalam</p>
+							<p class="pesan" id="c">saya ingin bertanya</p>
+							<p class="pesan" id="d">iya silahkan</p>
+							<p class="pesan" id="e">apakah ketika keadaan hari ini menggunakan past tense?</p>
+							<p class="pesan" id="f">tidak, keadaan hari ini menggunakan present tense</p>
+						</div>
 		</div>
 			<hr color="#95989A" size="1px">
 				<div class="kotakpesan"> 
 					<div class="lebarnya">
+						
 						<input class="inputanbiasa2" type="text" name="Message" value="" placeholder="Write the messages">
+
 					</div>
 						<div>
-							<a href="#"><img src="send.jpeg" class="send"></a>
+							<img src="send.jpeg" class="send" onclick="show()">
 						</div>
 				</div>
 		</div>
@@ -66,4 +78,28 @@
   			<p class="isi2"><a href="About Us Login.html" class="isilink">About Us</a></p>
 	</div>
 </body>
+<script type="text/javascript">
+	$(document).ready(function(){
+	      //effects take place in 3000ms
+	      $('.pesan').hide();
+	});
+	function show() {
+		// body...
+		var a = document.getElementById("a");
+		var b = document.getElementById("b");
+		console.log(a);
+
+		if ($('#a').css('display') == 'none') {
+			$('#a').show();
+			$('#b').delay(3000).show(0);
+
+		} else if ($('#c').css('display') == 'none') {
+			$('#c').show();
+			$('#d').delay(3000).show(0);
+		} else if ($('#e').css('display') == 'none'){
+			$('#e').show();
+			$('#f').delay(3000).show(0);
+		}
+	}
+</script>
 </html>
